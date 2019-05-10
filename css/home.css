@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.homeTitle {
+    background: #cee1ff;
+    height: 100vh;
+}
+
+.wrapper-HomeTitle {
+    height: 100%;
+    padding: 0 300px;
+}
+
+.homeTitle-in {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTitle-top {
+    margin-bottom: 50px;
+    color: #4f8e96;
+    font-size: 8em;
+    letter-spacing: 5px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.homeTitle-bottom {
+    color: #4f8e96;
+    font-size: 30px;
+    max-width: 500px;
+}
+
+.homeTitle-btn {
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 200px;
+    text-align: center;
+    background: #4f8e96;
+}
+
+.homeTitle-btn-in a{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sweep To Right */
+.homeTitle-btn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    overflow: hidden;
+}
+.homeTitle-btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.homeTitle-btn:hover .homeTitle-btn-in a, .homeTitle-btn:focus .homeTitle-btn-in a, .homeTitle-btn:active .homeTitle-btn-in a{
+    color: #4f8e96;
+    transition: 300ms ease-in-out;
+}
+.homeTitle-btn:hover:before, .homeTitle-btn:focus:before, .homeTitle-btn:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.blockInfo {
+    background: #fff;
+}
+
+.container-blockInfo {
+    padding: 50px 0;
+}
+
+.wrapper-blockInfo {
+    padding: 0 300px;
+    width: 100%;
+    height: 100%;
+}
