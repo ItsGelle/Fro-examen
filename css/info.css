@@ -1,0 +1,64 @@
+.blockInfo {
+    background: #e2f1ff;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    padding: 200px 0;
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    padding: 0 100px;
+    max-width: 1300px;
+    height: 100%;
+    width: 100%;
+}
+
+.blockInfo .info-top {
+    margin-bottom: 40px;
+    font-size: 6.5em;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #4f8e96;
+}
+
+.blockInfo .info-bottom {
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+.blockInfo .text-block {
+    margin-bottom: 20px;
+}
+
+.blockInfo i {
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 1224px) {
+    .wrapper {
+        padding: 0 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper{
+        padding: 0 20px;
+    }
+}
