@@ -1,6 +1,6 @@
 
 .navbar {
-    background: #4f8e96;
+    background: #ff604f;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -12,6 +12,7 @@
 
 .navbar ul li a{
     color: #fff !important;
+    font-weight: 700;
 }
 
 .navbar ul li a span{

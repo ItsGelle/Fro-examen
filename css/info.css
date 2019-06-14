@@ -1,15 +1,15 @@
 .blockInfo {
-    background: #e2f1ff;
+    background: #eee;
     height: 100vh;
 }
 
-.container {
+.container-blockInfo {
     position: relative;
     padding: 200px 0;
     height: 100%;
 }
 
-.wrapper {
+.wrapper-blockInfo {
     position: relative;
     padding: 0 100px;
     max-width: 1300px;
@@ -21,7 +21,7 @@
     margin-bottom: 40px;
     font-size: 6.5em;
     font-family: Impact, Charcoal, sans-serif;
-    color: #4f8e96;
+    color: #ff5400;
 }
 
 .blockInfo .info-bottom {
@@ -33,6 +33,10 @@
     margin-bottom: 20px;
 }
 
+.blockInfo b {
+    color: #ff7f1e;
+}
+
 .blockInfo i {
     font-weight: 600;
 }
@@ -40,25 +44,25 @@
 
 
 @media screen and (max-width: 1224px) {
-    .wrapper {
+    .wrapper-blockInfo {
         padding: 0 200px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .wrapper {
+    .wrapper-blockInfo {
         padding: 0 100px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .wrapper {
+    .wrapper-blockInfo {
         padding: 0 50px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .wrapper{
+    .wrapper-blockInfo {
         padding: 0 20px;
     }
 }
