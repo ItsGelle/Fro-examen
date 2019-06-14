@@ -3,7 +3,7 @@ html {
 }
 
 .homeTitle {
-    background: #cee1ff;
+    background: #fff6dd;
     height: 100vh;
 }
 
@@ -22,14 +22,14 @@ html {
 
 .homeTitle-top {
     margin-bottom: 50px;
-    color: #4f8e96;
+    color: #ff5400;
     font-size: 8em;
     letter-spacing: 5px;
     font-family: Impact, Charcoal, sans-serif;
 }
 
 .homeTitle-bottom {
-    color: #4f8e96;
+    color: #ff9f70;
     font-size: 30px;
     max-width: 500px;
 }
@@ -39,7 +39,7 @@ html {
     margin-top: 50px;
     width: 200px;
     text-align: center;
-    background: #4f8e96;
+    background: #ff0000;
 }
 
 .homeTitle-btn-in a{
@@ -83,7 +83,7 @@ html {
     transition-timing-function: ease-out;
 }
 .homeTitle-btn:hover, .homeTitle-btn:focus, .homeTitle-btn:active {
-    color: #4f8e96;
+    color: #ff9f70;
     transition: 300ms ease-in-out;
 }
 .homeTitle-btn:hover:before, .homeTitle-btn:focus:before, .homeTitle-btn:active:before {
@@ -151,7 +151,7 @@ a:hover {
         padding: 0 50px;
     }
 
-    .wrapper-blockInfo {
+    .wrapper-blockTickets {
         padding: 0 20px;
     }
 
@@ -199,9 +199,13 @@ a:hover {
     height: 100%;
 }
 
+.container-blockTickets {
+    padding-bottom: 50px;
+}
+
 .blockTickets-top {
     text-align: center;
-    color: #4f8e96;
+    color: #ff5400;
 }
 
 .blockTickets-title {
@@ -239,7 +243,7 @@ a:hover {
 .blockTickets-bottom .bottom {
     padding: 45px;
     font-size: 1.5em;
-    color: #4f8e96;
+    color: #ff9f70;
 }
 
 .blockTickets-bottom .col .top {
