@@ -228,7 +228,7 @@ a:hover {
     margin-right: 50px;
     padding: 0 !important;
     transform: scale(1);
-    transition: transform 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .blockTickets-bottom .col:last-child {
@@ -273,4 +273,5 @@ a:hover {
 
 .blockTickets-bottom .col:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }

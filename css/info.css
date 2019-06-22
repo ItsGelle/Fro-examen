@@ -1,6 +1,5 @@
 .blockInfo {
     background: #eee;
-    height: 100vh;
 }
 
 .container-blockInfo {
@@ -29,10 +28,6 @@
     line-height: 1.2em;
 }
 
-.blockInfo .text-block {
-    margin-bottom: 20px;
-}
-
 .blockInfo b {
     color: #ff7f1e;
 }
@@ -40,8 +35,6 @@
 .blockInfo i {
     font-weight: 600;
 }
-
-
 
 @media screen and (max-width: 1224px) {
     .wrapper-blockInfo {
