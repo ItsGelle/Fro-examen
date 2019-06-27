@@ -77,7 +77,7 @@ html {
 }
 
 .homeTitle-bottom {
-    color: #ffc477;
+    color: #ff9;
     font-size: 30px;
     max-width: 630px;
     font-weight: 600;
@@ -240,7 +240,12 @@ a:hover {
 
 .blockTickets-top {
     text-align: center;
+    position: relative;
     color: #ff5400;
+}
+
+.blockTickets-top .line{
+    left: 47%;
 }
 
 .blockTickets-title {
@@ -313,10 +318,16 @@ a:hover {
 }
 
 .info-top {
+    position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #ff5400;
     margin-bottom: 10px;
+}
+
+.info-top .line {
+    left: 0;
+    height: 5px;
 }
 
 .info-ticket {
@@ -621,11 +632,21 @@ a:hover {
 }
 
 .blockContact .contact-top {
+    position: relative;
     text-align: center;
     font-family: Impact, Charcoal, sans-serif;
     padding-bottom: 80px;
     font-size: 60px;
     color: #ff5400;
     font-weight: 700;
+}
+
+.line {
+    position: absolute;
+    background-color: #ff0000;
+    width: 100px;
+    left: 46%;
+    height: 3px;
+    text-align: center;
 }
 
