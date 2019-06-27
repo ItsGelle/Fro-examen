@@ -326,6 +326,7 @@ a:hover {
 .info-bottom {
     font-size: 18px;
     font-weight: 600;
+    position: relative;
 }
 
 .blockInfo {
@@ -583,3 +584,48 @@ a:hover {
 .row.hidden {
     display: none;
 }
+
+.info-bottom .btn {
+    margin-top: 10px;
+    position: relative;
+    background-color: #dc3545 !important;
+    border: 1px solid #dc3545 !important;
+}
+
+.info-bottom .hidden-content {
+    opacity: 0;
+    z-index: 10;
+    position: absolute;
+    border-top-left-radius: 20px;
+    background-color: #dc3545;
+    color: #fff;
+    top: 10px;
+    transition: opacity 200ms ease-in-out;
+}
+
+.info-bottom .hidden-content-in {
+    padding: 20px;
+}
+
+.blockTickets-mid .col:hover .hidden-content {
+    opacity: 1;
+}
+
+.blockContact .container {
+    padding-top: 70px;
+}
+
+.blockContact,
+.blockContact .contact-form {
+    background-color: #eeeeee;
+}
+
+.blockContact .contact-top {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    padding-bottom: 80px;
+    font-size: 60px;
+    color: #ff5400;
+    font-weight: 700;
+}
+
